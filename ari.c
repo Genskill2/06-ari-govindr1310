@@ -22,26 +22,20 @@ string ari(string s)
     int score=ceil((4.71*f1) +(0.5* f2) - 21.43);
    switch(score)
     {
-        case 5   :   return "Kindergarten";
-        case 6   :   return "First/Second Grade";
-        case 7   :
-        case 8   :   return "Third Grade";
-        case 9   :   return "Fourth Grade";
-        case 10  :   return "Third Grade";
-        case 11  :   return "Sixth Grade";
-        case 12  :   return "Seventh Grade";
-        case 13  :   return "Eighth Grade";
-        case 14  :   return "Ninth Grade";
-        case 15  :   return "Tenth Grade";
-        case 16  :   return "Eleventh Grade";
-        case 17  :   return "Twelfth Grade";
-        case 18  :   
-        case 19  : 
-        case 20  : 
-        case 21  : 
-        case 22  : 
-        case 23  :   return "College student";
-        default  :   return "Professor";
+        case 1   :   return "Kindergarten";
+        case 2   :   return "First/Second Grade";
+        case 3   :   return "Third Grade";
+        case 4   :   return "Fourth Grade";
+        case 5   :   return "Third Grade";
+        case 6   :   return "Sixth Grade";
+        case 7   :   return "Seventh Grade";
+        case 8   :   return "Eighth Grade";
+        case 9   :   return "Ninth Grade";
+        case 10  :   return "Tenth Grade";
+        case 11  :   return "Eleventh Grade";
+        case 12  :   return "Twelfth Grade";
+        case 13  :   return "College student";
+        case 14  :   return "Professor";
  
     }
 }

@@ -17,8 +17,8 @@ string ari(string s)
         else
             continue;
     }
-    float f1=ch/wd;
-    float f2=wd/sent;
+    float f1=(float)ch/wd;
+    float f2=(float)wd/sent;
     int score=ceil((4.71*f1) +(0.5* f2) - 21.43);
    switch(score)
     {
